@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>معركة الممالك</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin: 0; font-family: sans-serif; background: #f0f0f0; text-align: center; }
+    h1 { color: #2c3e50; padding: 20px; }
+    button { padding: 15px 30px; font-size: 18px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>🎮 لعبة معركة الممالك</h1>
+  <p>اضغط للعب!</p>
+  <button onclick="rollDice()">🎲 ارمي النرد</button>
+  <p id="result"></p>
+  <script>
+    function rollDice() {
+      const roll = Math.floor(Math.random() * 6) + 1;
+      document.getElementById('result').innerText = "نتيجتك: " + roll;
+    }
+  </script>
+</body>
+</html>

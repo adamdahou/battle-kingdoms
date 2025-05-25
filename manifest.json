@@ -1,0 +1,11 @@
+
+{
+  "name": "معركة الممالك",
+  "short_name": "معركة",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "لعبة معركة الممالك بلغة HTML/JS",
+  "orientation": "portrait",
+  "theme_color": "#2c3e50"
+}
